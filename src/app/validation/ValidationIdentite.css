@@ -1,0 +1,51 @@
+/* ValidationIdentite.css */
+.validation-identite-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .validation-identite-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .validation-identite-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .validation-identite-container form div {
+    margin-bottom: 15px;
+  }
+  
+  .validation-identite-container form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .validation-identite-container form input,
+  .validation-identite-container form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .validation-identite-container form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .validation-identite-container form button:hover {
+    background-color: #0056b3;
+  }
+  
